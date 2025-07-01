@@ -28,4 +28,4 @@ def translate_message(message):
 
 
 keep_alive()
-bot.polling()
+bot.polling(drop_pending_updates=True)
